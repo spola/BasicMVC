@@ -18,6 +18,7 @@ if(!file_exists($ctrl_path)) {
 }
 
 require("controllers/BaseController.php");
+require("models/BaseModel.php");
 require($ctrl_path);
 
 //Generamos la instancia del controller correspondiente
