@@ -25,7 +25,7 @@ $ctrl_name = ucfirst($ctrl_name) . "Controller";
 $ctrl = new $ctrl_name();
 
 
-
+//Seleccionar el método que se utilizará
 $method = $_SERVER['REQUEST_METHOD'];
 if ($method == 'POST') {
     // Method is POST
