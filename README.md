@@ -1,12 +1,12 @@
 # BasicMVC
 Framework MVC para enseñar las capas
 
-##Ejemplo de url utilizada
+## Ejemplo de url utilizada
 http://localhost/BasicMVC/index.php?p=index
 
 
-##Ejemplo de la Base de datos
-
+## Ejemplo de la Base de datos
+```sql
 -- --------------------------------------------------------
 
 --
@@ -25,3 +25,4 @@ CREATE TABLE `ejemplos` (
 INSERT INTO `ejemplos` (`col1`, `col2`) VALUES
 (1, 1),
 (100, 100);
+```
